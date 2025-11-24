@@ -4,47 +4,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
     <title>Home</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- HEADER -->
     <header class="header">
         <div class="container">
             <div class="header-container">
-                <img src="./images/logo.svg" alt="Logo">
-
-                <div class="burger">
+                <img src="./images/logo.svg" alt="Logo" data-aos="zoom-in">
+                <div class="burger" data-aos="zoom-in" data-aos-delay="200">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-
                 <ul class="header-list">
-                    <li class="header-item"><a class="header-link" href="index.html">Home</a></li>
-                    <li class="header-item"><a class="header-link" href="about.html">ABOUT US</a></li>
-                    <li class="header-item"><a class="header-link" href="create.html">Create your plan</a></li>
+                    <li class="header-item" data-aos="zoom-in" data-aos-delay="300"><a href="index.html"
+                            class="header-link">Home</a></li>
+                    <li class="header-item" data-aos="zoom-in" data-aos-delay="400"><a href="about.html"
+                            class="header-link">About Us</a></li>
+                    <li class="header-item" data-aos="zoom-in" data-aos-delay="500"><a href="create.html"
+                            class="header-link">Create Your Plan</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
+    <!-- HERO SECTION -->
     <section class="hero">
         <div class="container">
             <div class="hero-container">
                 <ul class="hero-list">
-                    <li class="hero-item">
-                        <h1 class="hero-title">Great coffee
-                         <br>   made simple.</h1>
-                         <p class="hero-text">Start your mornings with the world’s best coffees. Try our <br> expertly curated artisan coffees from our best roasters <br> delivered directly to your door, at your schedule.</p>
-                         <button class="hero-btn">Create your plan</button>
+                    <li class="hero-item" data-aos="zoom-in">
+                        <h1 class="hero-title">Great Coffee<br>Made Simple</h1>
+                        <p class="hero-text" data-aos="zoom-in" data-aos-delay="150">
+                            Start your mornings with the world’s best coffees. Expertly curated artisan coffees
+                            delivered directly to your door.
+                        </p>
+                        <button class="hero-btn" data-aos="zoom-in" data-aos-delay="300">Create Your Plan</button>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
-    
+
+    <!-- COFFEE SECTION -->
+    <section class="coffee-section">
+        <img src="./images/Group 13.svg" alt="" style="width:80%; margin-left:100px;" data-aos="zoom-in">
+        <div class="coffee-container">
+            <div class="coffee-item" data-aos="zoom-in" data-aos-delay="200">
+                <img src="./images/expresso-1.svg" alt="Gran Espresso">
+                <h2>Gran Espresso</h2>
+                <p>Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+            </div>
+            <div class="coffee-item" data-aos="zoom-in" data-aos-delay="400">
+                <img src="./images/kopi2.svg" alt="Planalto">
+                <h2>Planalto</h2>
+                <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+            </div>
+            <div class="coffee-item" data-aos="zoom-in" data-aos-delay="600">
+                <img src="./images/kopi3.svg" alt="Piccollo">
+                <h2>Piccollo</h2>
+                <p>Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+            </div>
+            <div class="coffee-item" data-aos="zoom-in" data-aos-delay="800">
+                <img src="./images/kopi4.svg" alt="Danche">
+                <h2>Danche</h2>
+                <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN SECTION -->
+    <main class="main">
+        <div class="container">
+            <div class="main-container" data-aos="zoom-in">
+                <h1 class="main-title">Why Choose Us?</h1>
+                <p class="main-text">
+                    A large part of our role is choosing which particular coffees will be featured
+                    in our range. This means working closely with the best coffee growers to give
+                    you a more impactful experience on every level.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- CATALOG SECTION -->
+    <main class="catalog">
+        <div class="container">
+            <div class="catalog-container">
+                <ul class="catalog-list">
+                    <li class="catalog-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="./images/rasm1.svg" alt="">
+                        <div class="catalog-text-wrapper">
+                            <h1 class="catalog-title">Best Quality</h1>
+                            <p class="catalog-text">Discover an endless variety of the world’s best artisan coffee from
+                                our roasters.</p>
+                        </div>
+                    </li>
+                    <li class="catalog-item" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="./images/rasm2.svg" alt="">
+                        <div class="catalog-text-wrapper">
+                            <h1 class="catalog-title">Exclusive Benefits</h1>
+                            <p class="catalog-text">Special offers and swag when you subscribe, including 30% off your
+                                first shipment.</p>
+                        </div>
+                    </li>
+                    <li class="catalog-item" data-aos="zoom-in" data-aos-delay="600">
+                        <img src="./images/rasm3.svg" alt="">
+                        <div class="catalog-text-wrapper">
+                            <h1 class="catalog-title">Free Shipping</h1>
+                            <p class="catalog-text">We cover the cost and coffee is delivered fast. Peak freshness
+                                guaranteed.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- HOW IT WORKS -->
+    <main class="how-it-works">
+        <div class="container">
+            <div class="how-it-works-container">
+                <h1 class="how-it-works-title" data-aos="zoom-in">How It Works</h1>
+                <ul class="how-it-works-list">
+                    <li class="how-it-works-item" data-aos="zoom-in" data-aos-delay="100">
+                        <p class="step-number">01</p>
+                        <h2 class="step-title">Pick Your Coffee</h2>
+                        <p class="step-text">Select from our evolving range of artisan coffees. Beans are ethically
+                            sourced with fair prices.</p>
+                    </li>
+                    <li class="how-it-works-item" data-aos="zoom-in" data-aos-delay="300">
+                        <p class="step-number">02</p>
+                        <h2 class="step-title">Choose the Frequency</h2>
+                        <p class="step-text">Customize order frequency, quantity, roast style, and grind type. Pause,
+                            skip or cancel anytime.</p>
+                    </li>
+                    <li class="how-it-works-item" data-aos="zoom-in" data-aos-delay="500">
+                        <p class="step-number">03</p>
+                        <h2 class="step-title">Receive and Enjoy</h2>
+                        <p class="step-text">Shipped within 48 hours, freshly roasted. Sit back and enjoy world-class
+                            coffees.</p>
+                    </li>
+                </ul>
+                <button class="plan-btn" data-aos="zoom-in" data-aos-delay="700">Create Your Plan</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="./images/logo2.svg" alt="Logo" class="footer-logo">
+            </div>
+            <div class="footer-right">
+                <ul class="footer-nav">
+                    <li class="footer-item"><a href="index.html" class="footer-link">Home</a></li>
+                    <li class="footer-item"><a href="about.html" class="footer-link">About Us</a></li>
+                    <li class="footer-item"><a href="create.html" class="footer-link">Create Plan</a></li>
+                </ul>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
     <script src="./css/main.js"></script>
 </body>
 

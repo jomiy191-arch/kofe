@@ -1,43 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/main.js">
-    <title>About</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 </head>
 
 <body>
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
     <header class="header">
         <div class="container">
             <div class="header-container">
-                <img src="./images/logo.svg" alt="Logo">
-                <div class="burger">
+                <img src="./images/logo.svg" alt="Logo" data-aos="zoom-in">
+                <div class="burger" data-aos="zoom-in" data-aos-delay="200">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
                 <ul class="header-list">
-                    <li class="header-item"><a class="header-link" href="index.html">Home</a></li>
-                    <li class="header-item"><a class="header-link" href="about.html">ABOUT US</a></li>
-                    <li class="header-item"><a class="header-link" href="create.html">Create your plan</a></li>
+                    <li class="header-item" data-aos="zoom-in" data-aos-delay="300"><a href="index.html" class="header-link">Home</a></li>
+                    <li class="header-item" data-aos="zoom-in" data-aos-delay="400"><a href="about.html" class="header-link">About Us</a></li>
+                    <li class="header-item" data-aos="zoom-in" data-aos-delay="500"><a href="create.html" class="header-link">Create Your Plan</a></li>
                 </ul>
             </div>
         </div>
     </header>
-      <section class="hero1">
+
+    <section class="hero1">
         <div class="container">
             <div class="hero1-container">
                 <ul class="hero1-list">
-                    <li class="hero1-item">
+                    <li class="hero1-item" data-aos="zoom-in">
                         <h1 class="hero1-title">About Us</h1>
-                         <p class="hero1-text" >Coffeeroasters began its journey of exotic discovery in 1999, <br> highlighting stories of coffee from around the world. We have <br> since been dedicated to bring the perfect cup - from bean to <br> brew - in every shipment.</p>
+                        <p class="hero1-text">
+                            Coffeeroasters began its journey of exotic discovery in 1999,<br>
+                            highlighting stories of coffee from around the world. We have<br>
+                            since been dedicated to bring the perfect cup – from bean to<br>
+                            brew – in every shipment.
+                        </p>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
+
+    <section class="about-info">
+        <div class="container">
+            <div class="about-info-container" data-aos="zoom-in" data-aos-delay="200">
+                <h2>Our Mission</h2>
+                <p>
+                    To provide the highest quality artisan coffees while supporting sustainable farming practices.
+                </p>
+            </div>
+            <div class="about-info-container" data-aos="zoom-in" data-aos-delay="400">
+                <h2>Our Vision</h2>
+                <p>
+                    To bring the world's finest coffee experiences to your doorstep, celebrating both flavor and culture.
+                </p>
+            </div>
+        </div>
+    </section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
     <script src="./css/main.js"></script>
 </body>
+
 </html>

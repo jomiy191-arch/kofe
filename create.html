@@ -5,39 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <title>Create Plan</title>
 </head>
 
 <body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
     <header class="header">
         <div class="container">
             <div class="header-container">
-                <img src="./images/logo.svg" alt="Logo">
-                <div class="burger">
+                <img src="./images/logo.svg" alt="Logo" data-aos="fade-down" data-aos-duration="1000"
+                    data-aos-delay="100">
+
+                <div class="burger" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
+
                 <ul class="header-list">
-                    <li class="header-item"><a class="header-link" href="index.html">Home</a></li>
-                    <li class="header-item"><a class="header-link" href="about.html">ABOUT US</a></li>
-                    <li class="header-item"><a class="header-link" href="create.html">Create your plan</a></li>
+                    <li class="header-item" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+                        <a class="header-link" href="index.html">Home</a>
+                    </li>
+                    <li class="header-item" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600">
+                        <a class="header-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="header-item" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
+                        <a class="header-link" href="create.html">Create your plan</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </header>
+
+
     <section class="hero2">
         <div class="container">
             <div class="hero2-container">
                 <ul class="hero2-list">
                     <li class="hero2-item">
-                        <h1 class="hero2-title">Create a plan</h1>
-                        <p class="hero2-text">Build a subscription plan that best fits your needs. We offer an <br> assortment of the best artisan coffees from around the globe <br> delivered fresh to your door.</p>
+                        <h1 class="hero2-title">
+                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Create a plan</span>
+                        </h1>
+                        <p class="hero2-text">
+                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                Build a subscription plan that best fits your needs.
+                            </span><br>
+                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                                We offer an assortment of the best artisan coffees from around the globe
+                            </span><br>
+                            <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                                delivered fresh to your door.
+                            </span>
+                        </p>
                     </li>
                 </ul>
             </div>
         </div>
     </section>
+    
+
+     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 150
+        });
+    </script>
+
+
     <script src="./css/main.js"></script>
 </body>
 
