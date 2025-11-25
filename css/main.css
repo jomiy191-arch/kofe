@@ -19,8 +19,8 @@
     background-image: url(../images/don.jpg);
     width: 100%;
     height: 70px;
-    position: sticky; 
-    top: 0; 
+    position: sticky;
+    top: 0;
     width: 100%;
     z-index: 999;
 }
@@ -236,10 +236,11 @@
 .hero1 {
     width: 100%;
     min-height: 89vh;
-    background: url('../images/kofe2.svg') no-repeat  center;
+    background: url('../images/kofe2.svg') no-repeat center;
     color: #fff;
-    
+
 }
+
 .hero1-list {
     list-style: none;
 }
@@ -327,10 +328,11 @@
 .hero2 {
     width: 100%;
     min-height: 89vh;
-    background: url('../images/kofe4.svg') no-repeat  center;
+    background: url('../images/kofe4.svg') no-repeat center;
     color: #fff;
-    
+
 }
+
 .hero2-list {
     list-style: none;
 }
@@ -420,7 +422,7 @@
     width: 100%;
     padding: 100px 0;
     background: url('../images/coffee-bg.jpg') no-repeat center/cover;
-    position: relative; 
+    position: relative;
     overflow: hidden;
 }
 
@@ -432,7 +434,7 @@
     width: 100%;
     height: 100%;
     background: #FEFCF700;
-    z-index: 0; 
+    z-index: 0;
 }
 
 .coffee-container {
@@ -442,7 +444,7 @@
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    z-index: 1; 
+    z-index: 1;
     padding: 0 20px;
 }
 
@@ -454,7 +456,7 @@
     transition: all 0.3s ease;
     backdrop-filter: blur(8px);
     cursor: pointer;
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .coffee-item:hover {
@@ -488,6 +490,7 @@
     .coffee-section {
         padding: 80px 15px;
     }
+
     .coffee-item img {
         width: 110px;
     }
@@ -505,12 +508,15 @@
         grid-template-columns: 1fr;
         gap: 15px;
     }
+
     .coffee-item {
         padding: 25px 18px;
     }
+
     .coffee-item h2 {
         font-size: 1.3rem;
     }
+
     .coffee-item p {
         font-size: 0.9rem;
     }
@@ -522,7 +528,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../images/orqafon1.png') no-repeat center/cover; 
+    background: url('../images/orqafon1.png') no-repeat center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -545,11 +551,14 @@
 }
 
 @keyframes spin {
-    to { transform: rotate(500deg); }
+    to {
+        transform: rotate(500deg);
+    }
 }
+
 .main {
-    padding: 100px 0; 
-    background-color: #2c343e; 
+    padding: 100px 0;
+    background-color: #2c343e;
     text-align: center;
     height: 500px;
 }
@@ -583,7 +592,7 @@
 
 .catalog {
     padding: 80px 20px;
-    background-color: #f5f5f5; 
+    background-color: #f5f5f5;
     text-align: center;
 }
 
@@ -594,11 +603,11 @@
     flex-wrap: wrap;
     list-style: none;
     padding: 0;
-    margin-top: -250px; 
+    margin-top: -250px;
 }
 
 .catalog-item {
-    background-color: #0E8784; 
+    background-color: #0E8784;
     color: #fff;
     padding: 40px 20px;
     border-radius: 20px;
@@ -610,7 +619,7 @@
 .catalog-item:hover {
     transform: translateY(-10px);
     background: #333;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .catalog-item img {
@@ -633,7 +642,7 @@
         height: auto;
         padding: 80px 20px;
     }
-    
+
     .catalog-list {
         margin-top: -150px;
         gap: 20px;
@@ -686,91 +695,95 @@
         font-size: 14px;
     }
 }
+
 .steps {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  position: relative;
-  width: 700px; 
-  margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 700px;
+    margin: 50px auto;
 }
 
 .steps::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #ccc;
-  z-index: 0;
-  transform: translateY(-50%);
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #ccc;
+    z-index: 0;
+    transform: translateY(-50%);
 }
 
 .step {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .circle {
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border: 3px solid #3498db;
-  border-radius: 50%;
-  display: block;
-  transition: background-color 0.3s, border-color 0.3s;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid #3498db;
+    border-radius: 50%;
+    display: block;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .step.active .circle {
-  background-color: #3498db;
-  border-color: #3498db;
+    background-color: #3498db;
+    border-color: #3498db;
 }
 
 
 @media (max-width: 1024px) {
-  .steps {
-    width: 550px;
-  }
-  .circle {
-    width: 28px;
-    height: 28px;
-  }
+    .steps {
+        width: 550px;
+    }
+
+    .circle {
+        width: 28px;
+        height: 28px;
+    }
 }
 
 @media (max-width: 768px) {
-  .steps {
-    width: 450px;
-  }
-  .circle {
-    width: 25px;
-    height: 25px;
-  }
+    .steps {
+        width: 450px;
+    }
+
+    .circle {
+        width: 25px;
+        height: 25px;
+    }
 }
 
 @media (max-width: 480px) {
-  .steps {
-    flex-direction: column;
-    width: 100%;
-    gap: 30px;
-  }
+    .steps {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
 
-  .steps::before {
-    display: none;
-  }
+    .steps::before {
+        display: none;
+    }
 
-  .circle {
-    width: 28px;
-    height: 28px;
-  }
+    .circle {
+        width: 28px;
+        height: 28px;
+    }
 }
 
 
-.how-it-works{
+.how-it-works {
     background-image: url(../images/don.jpg);
     width: 100%;
     height: 100%;
 }
+
 .how-it-works-title {
     font-size: 48px;
     font-weight: 700;
@@ -795,14 +808,14 @@
     border-radius: 20px;
     flex: 1 1 300px;
     text-align: left;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .how-it-works-item:hover {
     transform: translateY(-10px);
     background: #0E8784;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .step-number {
@@ -874,8 +887,9 @@
         font-size: 16px;
     }
 }
+
 .footer {
-    background-color:#2C343E;
+    background-color: #2C343E;
     color: #fff;
     padding: 20px 20px;
 }
@@ -942,7 +956,7 @@
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 768px) {
@@ -1024,7 +1038,7 @@
 }
 
 
-.quality{
+.quality {
     background: #050801;
     width: 100%;
     height: 500px;
@@ -1038,19 +1052,20 @@
         opacity: 0;
         transform: translateY(40px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.quality__container{
+.quality__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.quality__title{
+.quality__title {
     font-family: Fraunces;
     font-weight: 900;
     font-size: 40px;
@@ -1059,7 +1074,7 @@
     margin-bottom: 20px;
 }
 
-.quality__text{
+.quality__text {
     font-family: Barlow;
     font-weight: 400;
     font-size: 16px;
@@ -1068,7 +1083,7 @@
     width: 540px;
 }
 
-.quality__image{
+.quality__image {
     width: 445px;
     height: auto;
     top: -120px;
@@ -1084,51 +1099,400 @@
 
 /* 1024px */
 @media (max-width: 1024px) {
-    .quality__image{
+    .quality__image {
         width: 350px;
         top: -60px;
     }
 
-    .quality__text{
+    .quality__text {
         width: 450px;
     }
 }
 
 /* 768px */
 @media (max-width: 768px) {
-    .quality{
+    .quality {
         height: auto;
         padding: 40px 0;
     }
 
-    .quality__container{
+    .quality__container {
         flex-direction: column-reverse;
         text-align: center;
         gap: 20px;
     }
 
-    .quality__image{
+    .quality__image {
         width: 70%;
         top: 0;
     }
 
-    .quality__text{
+    .quality__text {
         width: 90%;
     }
 }
 
 /* 480px */
 @media (max-width: 480px) {
-    .quality__title{
+    .quality__title {
         font-size: 28px;
     }
 
-    .quality__text{
+    .quality__text {
         font-size: 14px;
         width: 100%;
     }
 
-    .quality__image{
+    .quality__image {
         width: 90%;
+    }
+}
+.header1{
+    background-image: url(../images/kofe.png);
+    width: 100%;
+    height: 607px;
+}
+.header1-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.color-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 0;
+    list-style: none;
+    justify-items: center;
+}
+
+.color-list li {
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.color-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+/* COLOR TOP */
+.color-top {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.color-top h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.color-top p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.color-bottom {
+    background: #f7f7f7;
+    padding: 15px;
+    text-align: center;
+}
+
+.color-bottom p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* ================= FONT SECTION ================= */
+.font-section {
+    padding: 60px 15px; /* kichik ekran uchun padding torroq */
+    background: #fefefe;
+}
+
+.font-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.font-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+/* ================= FONT CARD ================= */
+.font-card,
+.font-card1 {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    color: #fff;
+}
+
+/* Yonma-yon desktop va katta ekran */
+.font-card {
+    background: #0E8784;
+    width: calc(50% - 15px);
+    padding: 30px 20px;
+}
+
+.font-card1 {
+    background: #333D4B;
+    width: calc(50% - 15px);
+    padding: 40px 25px;
+}
+
+.font-card:hover,
+.font-card1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 35px rgba(0,0,0,0.2);
+}
+
+/* ================= FONT NAME ================= */
+.font-name {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ================= FONT SAMPLE ================= */
+.font-sample,
+.font-sample1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    display: block;
+    overflow: visible;
+    white-space: pre-wrap;
+    word-break: break-word;
+    background: inherit;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    user-select: text;
+}
+
+/* ================= RESPONSIVE MEDIA QUERIES ================= */
+
+/* 1200px dan past */
+@media screen and (max-width: 1200px) {
+    .font-card,
+    .font-card1 {
+        width: calc(50% - 15px);
+    }
+}
+
+/* 992px dan past (tablet katta) */
+@media screen and (max-width: 992px) {
+    .font-card,
+    .font-card1 {
+        width: 100%;
+    }
+}
+
+/* 768px dan past (tablet kichik) */
+@media screen and (max-width: 768px) {
+    .font-section {
+        padding: 50px 10px;
+    }
+
+    .font-name {
+        font-size: 24px;
+    }
+
+    .font-sample,
+    .font-sample1 {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+
+    .font-wrapper {
+        gap: 20px;
+    }
+}
+
+/* 576px dan past (mobil) */
+@media screen and (max-width: 576px) {
+    .font-section {
+        padding: 40px 8px;
+    }
+
+    .font-name {
+        font-size: 22px;
+    }
+
+    .font-sample,
+    .font-sample1 {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+
+    .font-wrapper {
+        gap: 15px;
+    }
+}
+
+/* 400px dan past (mobil juda kichik) */
+@media screen and (max-width: 400px) {
+    .font-name {
+        font-size: 20px;
+    }
+
+    .font-sample,
+    .font-sample1 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding: 12px;
+    }
+
+    .font-wrapper {
+        gap: 10px;
+    }
+}
+/* _______________________________________________________________ */
+
+/* ================= HEADQUARTERS SECTION ================= */
+.hq-section {
+    padding: 80px 20px;
+    background: #f9f9f9;
+}
+
+.hq-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hq-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 60px;
+    color: #222;
+}
+
+/* ================= HQ LIST ================= */
+.hq-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+/* ================= HQ CARD ================= */
+.hq-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: calc(33.333% - 20px); /* 3 kartani yonma-yon */
+    text-align: center;
+}
+
+.hq-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+
+/* ================= FLAG IMAGE ================= */
+.hq-flag {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* ================= COUNTRY NAME ================= */
+.hq-country {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #0E8784;
+}
+
+/* ================= ADDRESS ================= */
+.hq-address {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+    .hq-card {
+        width: calc(50% - 15px);
+    }
+}
+
+/* Mobil kichik */
+@media screen and (max-width: 600px) {
+    .hq-card {
+        width: 100%;
+        padding: 25px 15px;
+    }
+
+    .hq-title {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .hq-country {
+        font-size: 20px;
+    }
+
+    .hq-address {
+        font-size: 14px;
+    }
+
+    .hq-flag {
+        width: 60px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobil juda kichik */
+@media screen and (max-width: 400px) {
+    .hq-title {
+        font-size: 28px;
+    }
+
+    .hq-country {
+        font-size: 18px;
+    }
+
+    .hq-address {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .hq-flag {
+        width: 50px;
     }
 }
