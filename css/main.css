@@ -56,7 +56,7 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background: #793f3f;
+    background: #ffffff;
     transform: translateX(-50%);
     transition: width 0.3s ease;
 }
